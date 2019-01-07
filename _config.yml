@@ -1,1 +1,23 @@
-theme: jekyll-theme-leap-day
+# Site settings
+title: Welcome to Toby's Blog!
+email: 778671699@qq.com
+description: 这里记录着我的Linux学习之路
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  FrankJKL
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
