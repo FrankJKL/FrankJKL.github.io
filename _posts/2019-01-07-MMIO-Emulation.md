@@ -5,6 +5,7 @@ categories: Qemu-KVM
 tags: MMIO EPT
 author: tobyjiang
 typora-root-url: ..
+comments: true
 ---
 
 * content
