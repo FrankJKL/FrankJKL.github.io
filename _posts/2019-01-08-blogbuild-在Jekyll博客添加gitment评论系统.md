@@ -6,7 +6,6 @@ tags: Gitment
 author: tobyjiang
 typora-root-url: ..
 comments: true
-date: 2019-01-08 00:00:01 +0000
 ---
 
 * content
