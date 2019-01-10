@@ -58,3 +58,6 @@ excerpt_separator: "\n\n\n\n"
 # paginate
 gems: [jekyll-paginate]
 paginate: 6
+
+plugins:
+ - jekyll-sitemap    #jekyll的站点地图插件，用于生成站点地图
