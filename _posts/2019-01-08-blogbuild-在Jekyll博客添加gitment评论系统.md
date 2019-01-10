@@ -36,7 +36,7 @@ Authorization Callback URL: https://frankjkl.github.io //一定要写自己Githu
 <script src="https://jjeejj.github.io/js/gitment.js"></script>
 <script>
 var gitment = new Gitment({
-  id: '\{\{ page.date \}\}', #对应文章评论所形成issue的label，默认为文章的url,为了防止url过长导致评论初始化失败，这里设置label为文章yaml中的时间。这一项无需更改
+  id: '\{\{ page.date \}\}', #对应文章评论所形成issue的label，默认为文章的url,为了防止url过长导致评论初始化失败，这里设置label为文章yaml中的时间。这一项无需更改，\为转义字符，应用时需要删掉
   owner: 'FrankJKL', #Github Pages博客所在的github账户名
   repo: 'FrankJKL.github.io', #Github Pages博客所在仓库名
   oauth: {
@@ -80,7 +80,7 @@ owner或者repo配置错误了，照着第二步来就好，网页端生成后�
 ...
 <script>
     var gitment = new Gitment({
-        id: '\{\{ page.date \}\}',
+        id: '\{\{ page.date \}\}', #\为转义字符，应用时需要删掉
         owner: 'FrankJKL',
         repo: 'FrankJKL.github.io',
         oauth: {
