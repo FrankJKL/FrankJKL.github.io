@@ -26,6 +26,3 @@ type: page
 
   阿里Java研发工程师
 
-## Comments
-
-{% include comments.html %}

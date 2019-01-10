@@ -25,6 +25,3 @@ type: page
 
 ~欢迎使用~
 
-## Comments
-
-{% include comments.html %}
