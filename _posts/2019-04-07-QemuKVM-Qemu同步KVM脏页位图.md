@@ -6,11 +6,15 @@ tags: Qemu KVM 脏页位图
 typora-root-url: ..
 ---
 
-[TOC]
-
+* content
+{:toc}
 本篇文章基于qemu2.6.0，Linux3.10.0内核，x86体系结构。Qemu与KVM同步脏页位图主要分为Qemu与KVM两部分，我们先来看看Qemu部分。
 
+
+
 ## Qemu部分
+
+主要内容：Qemu将KVM返回的位图设置到自己的ram_list->dirty_memory->blocks中的map位图
 
 ### address_space_sync_dirty_bitmap
 
